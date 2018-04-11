@@ -2,5 +2,10 @@
 请把与index.html页面相关的css代码写在这里
 同时删除该注释
 */
-
+form{
+	margin-left:20px;
+}
+form input{
+	margin-left:30px;
+}
 /* #message只是一个示例，可以删除 */
