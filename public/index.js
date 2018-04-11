@@ -7,9 +7,10 @@ function calculate() {
         if (input[i].type == "radio") {answer.radio.push(input[i].checked);}
         if (input[i].type == "checkbox") {answer.checkbox.push(input[i].checked);}
     }
-	let summary = score(answer);
-	let message = document.getElementById("message");
-	message.innerHTML = summary;
+    answer.brief=document.getElementById("brief").value;
+  	let summary = score(answer);
+  	let message = document.getElementById("message");
+  	message.innerHTML = summary;
   // 显示在html页面的`message`中
 }
 
